@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nihaar Batla — ePortfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Scroll progress bar -->
+  <div class="scroll-bar" id="scrollBar"></div>
+
+  <!-- Custom cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- Noise overlay -->
+  <div class="noise"></div>
+
+  <!-- ═══════════════════════════════ NAV ═══════════════════════════════ -->
+  <nav id="nav">
+    <a href="#hero" class="nav-logo">NB</a>
+    <ul class="nav-links">
+      <li><a href="#about" data-label="About">About</a></li>
+      <li><a href="#project" data-label="Project">Project</a></li>
+      <li><a href="#reflection" data-label="Reflection">Reflection</a></li>
+    </ul>
+    <div class="nav-line"></div>
+  </nav>
+
+  <!-- ═══════════════════════════════ HERO ═══════════════════════════════ -->
+  <section id="hero">
+    <div class="hero-bg-text" aria-hidden="true">NB</div>
+
+    <div class="hero-inner">
+      <div class="hero-left">
+        <div class="hero-tag reveal-up" style="--d:0.1s">Engineering ePortfolio &nbsp;·&nbsp; UBCO &nbsp;·&nbsp; Class of 2026</div>
+        <h1 class="hero-name reveal-up" style="--d:0.25s">
+          <span>Nihaar</span>
+          <em>Batla</em>
+        </h1>
+        <p class="hero-sub reveal-up" style="--d:0.4s">
+          University of British Columbia Okanagan<br>
+          Bachelor of Applied Science in Engineering
+        </p>
+        <div class="hero-actions reveal-up" style="--d:0.55s">
+          <a href="#project" class="btn btn-filled">View Capstone</a>
+          <a href="#about" class="btn btn-outline">About Me</a>
+        </div>
+      </div>
+
+      <div class="hero-right reveal-fade" style="--d:0.45s">
+        <div class="photo-wrap">
+          <div class="photo-inner">
+            <!-- Replace the div below with: <img src="your-photo.jpg" alt="Nihaar Batla" /> -->
+            <div class="photo-placeholder">
+              <div class="ph-icon">☺</div>
+              <span>Add your photo here</span>
+            </div>
+          </div>
+          <div class="photo-deco-line"></div>
+          <div class="photo-deco-dot"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll-hint reveal-up" style="--d:1s">
+      <span>Scroll</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- ═══════════════════════════════ ABOUT ═══════════════════════════════ -->
+  <section id="about">
+    <div class="section-header">
+      <div class="section-num">01</div>
+      <div>
+        <div class="section-eyebrow">Who I Am</div>
+        <h2 class="section-title">About Me</h2>
+      </div>
+    </div>
+
+    <div class="about-grid">
+      <aside class="about-sidebar">
+        <div class="sidebar-block">
+          <div class="sidebar-label">University</div>
+          <div class="sidebar-val">University of British Columbia Okanagan</div>
+        </div>
+        <div class="sidebar-block">
+          <div class="sidebar-label">Degree</div>
+          <div class="sidebar-val">B.A.Sc. Engineering</div>
+        </div>
+        <div class="sidebar-block">
+          <div class="sidebar-label">Graduating</div>
+          <div class="sidebar-val">Class of 2026</div>
+        </div>
+        <div class="sidebar-block">
+          <div class="sidebar-label">Skills</div>
+          <div class="tag-cloud">
+            <span class="tag">Add Skill</span>
+            <span class="tag">MATLAB</span>
+            <span class="tag">Python</span>
+            <span class="tag">CAD</span>
+            <span class="tag">Prototyping</span>
+            <span class="tag">Data Analysis</span>
+            <span class="tag">Add More</span>
+          </div>
+        </div>
+        <div class="sidebar-block">
+          <div class="sidebar-label">Links</div>
+          <div class="sidebar-links">
+            <a href="#" class="sidebar-link">↗ GitHub</a>
+            <a href="#" class="sidebar-link">↗ LinkedIn</a>
+            <a href="#" class="sidebar-link">↗ Résumé</a>
+          </div>
+        </div>
+        <div class="sidebar-block">
+          <div class="sidebar-label">Contact</div>
+          <a href="mailto:nihaar@student.ubc.ca" class="sidebar-link">nihaar@student.ubc.ca</a>
+        </div>
+      </aside>
+
+      <div class="about-body">
+        <p class="about-lead">
+          Hi, I'm <strong>Nihaar Batla</strong> — an engineering student at UBC Okanagan with a passion for [your area of interest, e.g. sustainable design, embedded systems, mechanical innovation].
+        </p>
+        <p class="about-para">
+          Replace this paragraph with your own bio. Tell the reader about your academic journey — what drew you to engineering, what shaped your studies at UBCO, and where your curiosity has led you. Two to three sentences is ideal.
+        </p>
+        <p class="about-para">
+          Add a second paragraph here if you'd like — talk about a defining project, an experience outside the classroom, or a personal interest that connects to who you are as an engineer. Keep it genuine.
+        </p>
+
+        <div class="about-stats">
+          <div class="stat-item">
+            <div class="stat-num">4</div>
+            <div class="stat-label">Years at UBCO</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">20+</div>
+            <div class="stat-label">Projects Completed</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">2026</div>
+            <div class="stat-label">Graduating</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- ═══════════════════════════════ PROJECT ═══════════════════════════════ -->
+  <section id="project" class="project-section">
+    <div class="section-header light">
+      <div class="section-num light">02</div>
+      <div>
+        <div class="section-eyebrow light">Capstone</div>
+        <h2 class="section-title light">Project Entry</h2>
+      </div>
+    </div>
+
+    <!-- Summary row -->
+    <div class="project-summary-row">
+      <p class="project-summary-text">
+        Write one or two sentences here that summarize your capstone for a general audience. What did you build, why does it matter, and who benefits? No jargon — imagine explaining it at a dinner table.
+      </p>
+      <div class="project-tags">
+        <div class="p-tag">Course <strong>ENGR XXXX</strong></div>
+        <div class="p-tag">Team <strong>X Members</strong></div>
+        <div class="p-tag">Duration <strong>Sept–Apr 2025–26</strong></div>
+        <div class="p-tag">Role <strong>Your Role</strong></div>
+      </div>
+    </div>
+
+    <!-- Media grid -->
+    <div class="media-grid">
+      <div class="media-card span-2">
+        <div class="media-img-wrap">
+          <!-- Replace with: <img src="hero-prototype.jpg" alt="Final Prototype" /> -->
+          <div class="media-placeholder">
+            <span>[ Final Prototype / Hero Image ]</span>
+            <small>Replace with your best project photo</small>
+          </div>
+        </div>
+        <div class="media-cap"><strong>Fig 1.</strong> Caption describing the final prototype — what the viewer sees and why it matters to the project outcome.</div>
+      </div>
+      <div class="media-card">
+        <div class="media-img-wrap">
+          <div class="media-placeholder">
+            <span>[ Early Sketch / CAD ]</span>
+          </div>
+        </div>
+        <div class="media-cap"><strong>Fig 2.</strong> Low-fidelity concept sketch — describe the initial assumptions made at this stage.</div>
+      </div>
+      <div class="media-card">
+        <div class="media-img-wrap">
+          <div class="media-placeholder">
+            <span>[ Data / Chart ]</span>
+          </div>
+        </div>
+        <div class="media-cap"><strong>Fig 3.</strong> Key results visualization — note the main takeaway for the reader.</div>
+      </div>
+    </div>
+
+    <!-- Design timeline -->
+    <div class="timeline-wrap">
+      <div class="timeline-track"></div>
+
+      <div class="tl-entry js-reveal">
+        <div class="tl-marker"></div>
+        <div class="tl-content">
+          <div class="tl-phase">Phase 01 — Define</div>
+          <h3 class="tl-title">Problem Discovery</h3>
+          <p class="tl-body">Describe the problem you identified and why solving it matters. Who is the stakeholder? What engineering need did you uncover? Keep this focused — one clear problem statement is stronger than many vague ones.</p>
+        </div>
+      </div>
+
+      <div class="tl-entry js-reveal">
+        <div class="tl-marker"></div>
+        <div class="tl-content">
+          <div class="tl-phase">Phase 02 — Ideate</div>
+          <h3 class="tl-title">Concept Generation & Selection</h3>
+          <p class="tl-body">Walk through your ideation process. How many concepts did you explore? What decision matrix or criteria guided your selection? Highlight one key trade-off your team had to navigate and the reasoning behind your choice.</p>
+        </div>
+      </div>
+
+      <div class="tl-entry js-reveal">
+        <div class="tl-marker"></div>
+        <div class="tl-content">
+          <div class="tl-phase">Phase 03 — Build</div>
+          <h3 class="tl-title">Prototype Iteration</h3>
+          <p class="tl-body">Describe the evolution of your prototype — from rough proof-of-concept to refined build. What changed between iterations? What did testing reveal that redirected your approach? Focus on decisions and learnings over technical specification.</p>
+        </div>
+      </div>
+
+      <div class="tl-entry js-reveal">
+        <div class="tl-marker"></div>
+        <div class="tl-content">
+          <div class="tl-phase">Phase 04 — Validate</div>
+          <h3 class="tl-title">Testing & Results</h3>
+          <p class="tl-body">Present your key results. Did your solution meet the original specifications? Reference data and metrics where possible. Acknowledge shortcomings honestly — this demonstrates engineering maturity and credibility to industry readers.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Outcome metrics -->
+    <div class="outcomes-row">
+      <div class="outcome-card js-reveal">
+        <div class="outcome-val">X.X</div>
+        <div class="outcome-name">Key Metric</div>
+        <div class="outcome-desc">e.g. efficiency gain, load capacity, error reduction — use your real result</div>
+      </div>
+      <div class="outcome-card js-reveal">
+        <div class="outcome-val">4</div>
+        <div class="outcome-name">Design Iterations</div>
+        <div class="outcome-desc">Number of build-test-refine cycles completed throughout the project</div>
+      </div>
+      <div class="outcome-card js-reveal">
+        <div class="outcome-val">X</div>
+        <div class="outcome-name">Another Metric</div>
+        <div class="outcome-desc">A second quantifiable outcome or milestone worth highlighting here</div>
+      </div>
+    </div>
+
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- ═══════════════════════════════ REFLECTION ═══════════════════════════════ -->
+  <section id="reflection">
+    <div class="section-header">
+      <div class="section-num">03</div>
+      <div>
+        <div class="section-eyebrow">First-Person</div>
+        <h2 class="section-title">Reflection</h2>
+      </div>
+    </div>
+
+    <div class="reflection-grid">
+      <nav class="rfl-nav" id="rflNav">
+        <a href="#rfl1" class="rfl-link active">
+          <span class="rfl-index">01</span>
+          <span>Design Process</span>
+        </a>
+        <a href="#rfl2" class="rfl-link">
+          <span class="rfl-index">02</span>
+          <span>Engineer Attributes</span>
+        </a>
+        <a href="#rfl3" class="rfl-link">
+          <span class="rfl-index">03</span>
+          <span>Role in Society</span>
+        </a>
+        <a href="#rfl4" class="rfl-link">
+          <span class="rfl-index">04</span>
+          <span>Strengths & Growth</span>
+        </a>
+      </nav>
+
+      <div class="rfl-body">
+
+        <div class="rfl-block js-reveal" id="rfl1">
+          <div class="rfl-q-num">01</div>
+          <h3 class="rfl-question">"What did you learn about the design process from your experience in this course?"</h3>
+          <div class="rfl-answer">
+            <p>Write your first-person reflection here. Speak specifically — reference moments from your capstone, not textbook theory. What surprised you about iterative design? What assumption did the process force you to abandon?</p>
+            <p>Aim for genuine insight. The reader wants to know how your thinking evolved, not a summary of design steps they already know.</p>
+          </div>
+        </div>
+
+        <div class="rfl-block js-reveal" id="rfl2">
+          <div class="rfl-q-num">02</div>
+          <h3 class="rfl-question">"What are the most important attributes of an engineer?"</h3>
+          <div class="rfl-answer">
+            <p>Ground your answer in lived experience — not what a course outline says. What attribute, when absent, hurt your team? When present, made the difference? What did you observe in yourself that you didn't expect?</p>
+          </div>
+        </div>
+
+        <div class="rfl-block js-reveal" id="rfl3">
+          <div class="rfl-q-num">03</div>
+          <h3 class="rfl-question">"How has this project contributed to your understanding of the professional engineer's role in society?"</h3>
+          <div class="rfl-answer">
+            <p>Think beyond technical performance. What ethical, environmental, or accessibility considerations arose during your project? What responsibilities did you feel? How has this changed how you'll approach future work as an engineer?</p>
+          </div>
+        </div>
+
+        <div class="rfl-block js-reveal" id="rfl4">
+          <div class="rfl-q-num">04</div>
+          <h3 class="rfl-question">"What strengths do you bring, and where do you need to grow?"</h3>
+          <div class="rfl-answer">
+            <p>Be specific and honest. Strengths aren't only technical — communication, persistence, and creative problem-solving all count. For growth areas, go beyond naming them: describe concretely how you will develop each one.</p>
+            <p>End with a forward-looking sentence that captures your trajectory as an engineer stepping into the profession.</p>
+          </div>
+          <div class="rfl-wordcount">Target: ~300 words across all responses</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ FOOTER ═══════════════════════════════ -->
+  <footer>
+    <div class="footer-left">
+      <div class="footer-name">Nihaar Batla</div>
+      <div class="footer-sub">UBC Okanagan · B.A.Sc. Engineering · Class of 2026</div>
+    </div>
+    <div class="footer-links">
+      <a href="#about">About</a>
+      <a href="#project">Project</a>
+      <a href="#reflection">Reflection</a>
+    </div>
+    <div class="footer-right">
+      <a href="mailto:nihaar@student.ubc.ca" class="footer-email">nihaar@student.ubc.ca</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
